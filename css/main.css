@@ -1,3 +1,17 @@
+/* 
+1. Posicionamiento
+2. Modelo caja
+3. Tipografía
+4. Visuales
+5. Otros
+*/
+
+:root {
+    /* Colores */
+    --white: #ffffff;
+    --gray-light: #7F7F7F;
+}
+
 * {
     margin: 0;
     padding: 0;
