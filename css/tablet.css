@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+    .main-menu {
+        position: relative;
+        flex-direction: row;
+        transform: translateY(0);
+        width: 457px;
+        height: 50px;
+        background-color: transparent;
+    }
+    .toggle-menu {
+        display: none;
+    }
+    .main-menu__item--especial {
+        border: solid 1px var(--white);
+    }
+}
