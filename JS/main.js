@@ -1,8 +1,8 @@
-const toogleMenuElement = document.getElementById('toggle-menu');
-const menuElement = document.getElementById('main-menu');
-const toggleIcon = document.getElementById('toggle-menu--icon');
+const toogleMenuElement = document.getElementById('nav__toggle-menu');
+const menuElement = document.getElementById('nav__menu');
+const toggleIcon = document.getElementById('toggle-menu__icon');
 
 toogleMenuElement.addEventListener('click', () => {
-    menuElement.classList.toggle('main-menu--show');
-    toggleIcon.classList.toggle('toggle-menu--icon__activate');
+    menuElement.classList.toggle('nav__menu--show');
+    toggleIcon.classList.toggle('toggle-menu__icon--activate');
 });
