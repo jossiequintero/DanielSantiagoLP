@@ -179,7 +179,7 @@ body {
 
 /* Personal Project */
 
-.personal-projects{
+.main__personal-projects{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -194,7 +194,7 @@ body {
     color: #DEDEDE;
 }
 
-.personal-project__carousel {
+.personal-projects__carousel {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -204,7 +204,7 @@ body {
     overflow-y: hidden;
 }
 
-.personal-project__carousel picture img{
+.personal-projects__carousel picture img{
     margin-bottom: 20px;
     scroll-snap-align: center;
 }
