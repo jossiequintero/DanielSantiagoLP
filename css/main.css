@@ -176,3 +176,35 @@ body {
 
 
 /* Home container fin */
+
+/* Personal Project */
+
+.main__personal-projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personal-projects__title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    line-height: 3.5rem;
+    color: #DEDEDE;
+}
+
+.personal-projects__carousel {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 17px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.personal-projects__carousel picture img{
+    margin-bottom: 20px;
+    scroll-snap-align: center;
+}
