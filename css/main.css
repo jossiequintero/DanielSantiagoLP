@@ -46,18 +46,18 @@ body {
     background-color: rgba(50, 50, 50, 0.7);
 }
 
-.logo {
+.header__logo {
     width: 33.46px;
     height: 38.85px;
     margin-left: 1.5rem;
 }
 
-.logo-nombre {
+.header__logo-nombre {
     font-size: 2rem;
     color: var(--white);
 }
 
-.main-nav {
+.header__nav {
     position: absolute;
     display: flex;
     justify-content: flex-end;
@@ -67,7 +67,7 @@ body {
     height: 72px;
 }
 
-.toggle-menu {
+.nav__toggle-menu {
     cursor: pointer;
     /* Cambiar el color a blanco */
     filter: invert(1);
@@ -75,7 +75,7 @@ body {
     margin-right: 1rem;
 }
 
-.toggle-menu--icon {
+.toggle-menu__icon {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -85,12 +85,12 @@ body {
     background-position: center;
 }
 
-.toggle-menu--icon__activate {
+.toggle-menu__icon--activate {
     background-image: url(../assets/icons/close.svg);
     transition: transform 0.3s;
 }
 
-.main-menu {
+.nav__menu {
     position: absolute;
     top: 0;
     left: 0;
@@ -107,15 +107,15 @@ body {
     transform: translateY(-200%);
 }
 
-.main-menu--show {
+.nav__menu--show {
     transform: translateY(0);
 }
 
-.main-menu__item {
+.menu__item {
     padding: 1rem 2rem;
 }
 
-.main-menu__link {
+.item__link {
     color: #fff;
     text-decoration: none;
     font-size: 1.6rem;
@@ -128,7 +128,7 @@ body {
 
 /* Home container incio */
 
-.home-container {
+.main__home {
     width: 100%;
     height: 527px;
     display: flex;
@@ -136,26 +136,26 @@ body {
     align-items: center;
 }
 
-.home-container--title {
+.home__title {
     font-size: 2.6rem;
     color: var(--white);
     font-family: 'Playfair Display', serif;
     margin-top: 3.6rem;
 }
 
-.home-container--subTitle {
+.home__subtitle {
     font-size: 1.6rem;
     color: var(--white);
     opacity: 0.5;
     margin-bottom: 37px;
 }
 
-.photoOne {
+.home__photo-home {
     width: 221px;
     height: 269px;
 }
 
-.social-container {
+.home__social-container {
     width: 100%;
     height: 48px;
     display: flex;
@@ -165,7 +165,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.social-container--icon {
+.social-container__icon {
     width: 32px;
     height: 32px;
     cursor: pointer;
