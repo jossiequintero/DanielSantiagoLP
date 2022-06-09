@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) {
-    .main-menu {
+    .nav__menu {
         position: relative;
         flex-direction: row;
         transform: translateY(0);
@@ -7,10 +7,10 @@
         height: 50px;
         background-color: transparent;
     }
-    .toggle-menu {
+    .nav__toggle-menu {
         display: none;
     }
-    .main-menu__item--especial {
+    .menu__item--especial {
         border: solid 1px var(--white);
     }
 }
