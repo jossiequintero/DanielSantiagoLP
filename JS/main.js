@@ -6,3 +6,5 @@ toogleMenuElement.addEventListener('click', () => {
     menuElement.classList.toggle('main-menu--show');
     toggleIcon.classList.toggle('toggle-menu--icon__activate');
 });
+
+document.getElementById('img2').scrollIntoView(true);
