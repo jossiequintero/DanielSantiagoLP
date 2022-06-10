@@ -1,4 +1,4 @@
-/* 
+/*
 1. Posicionamiento
 2. Modelo caja
 3. Tipografía
@@ -125,7 +125,6 @@ body {
 .main {
     min-width: 320px;
 }
-
 
 /* Home container incio */
 
@@ -278,7 +277,6 @@ hr {
     height: 0.01rem;
 }
 
-
 /* fin biografia */
 
 
@@ -415,3 +413,16 @@ hr {
 
 
 /* fin skills */
+
+.footer {
+    /* position: absolute;
+    bottom: 0; */
+    margin-top: 139px;
+    padding: 17px;
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+    line-height: 2.8rem;
+    text-align: center;
+    color: var(--white);
+}
+
