@@ -1,4 +1,4 @@
-/* 
+/*
 1. Posicionamiento
 2. Modelo caja
 3. Tipografía
@@ -124,6 +124,7 @@ body {
 .main {
     min-width: 320px;
 }
+
 /* Home container incio */
 .main__home {
     width: 100%;
@@ -176,7 +177,7 @@ body {
 
 /* Personal Project */
 
-.main__personal-projects{
+.main__personal-projects {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -201,15 +202,15 @@ body {
     overflow-y: hidden;
 }
 
-.personal-projects__carousel picture img{
+.personal-projects__carousel picture img {
     margin-bottom: 20px;
     scroll-snap-align: center;
 }
 
 /*Biografia**/
 
-.main__biografia{
-    width: calc(100% - 4rem);
+.main__biografia {
+    width: calc(100% - 5rem);
     min-height: 50rem;
     min-width: 28rem;
     display: flex;
@@ -220,49 +221,67 @@ body {
     align-items: center;
 }
 
-.biografia__figure{
+.biografia__figure {
     display: none;
-} 
+}
 
-.biografia__figure img{
+.biografia__figure img {
     width: 25.9rem;
     height: 38.2rem;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
 }
-.biografia__descripcion{
+
+.biografia__descripcion {
     text-align: center;
     line-height: 3rem;
     color: #ffffff;
 }
-.descripcion__titulo{
+
+.descripcion__titulo {
     margin-top: 2rem;
     line-height: 4rem;
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.2rem;
     font-size: 2.4rem;
 }
-.descripcion__parrafo{
+
+.descripcion__parrafo {
     margin-top: 2rem;
     font-size: 1.6rem;
     opacity: 50%;
 }
-.boton{
-    border-radius: 3%;    
+
+.boton {
+    border-radius: 3%;
     margin-top: 3rem;
     width: 100%;
     border: none;
-    background-color: #9D9D9D;    
+    background-color: #9D9D9D;
     width: 24.2rem;
     height: 5.7rem;
 }
-.boton__texto{    
-    padding-left: 1rem;    
+
+.boton__texto {
+    padding-left: 1rem;
     color: var(--white);
-    font-size: 1.8rem;    
+    font-size: 1.8rem;
 }
+
 hr {
     width: 20rem;
     height: 0.01rem;
+}
+
+.footer {
+    /* position: absolute;
+    bottom: 0; */
+    margin-top: 139px;
+    padding: 17px;
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+    line-height: 2.8rem;
+    text-align: center;
+    color: var(--white);
 }
