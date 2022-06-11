@@ -216,7 +216,7 @@ body {
 
 /*Biografia**/
 
-.main__biografia {
+.main__biography{
     width: calc(100% - 4rem);
     min-height: 50rem;
     min-width: 28rem;
@@ -227,39 +227,33 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-.biografia__figure {
+.biography__figure {
     display: none;
 }
-
-.biografia__figure img {
+.biography__figure img {
     width: 25.9rem;
     height: 38.2rem;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
 }
-
-.biografia__descripcion {
+.biography__description{
     text-align: center;
     line-height: 3rem;
     color: rgba(255, 255, 255, 0.5);
 }
-
-.descripcion__titulo {
+.description__tittle{
     line-height: 4rem;
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.2rem;
     font-size: 2.4rem;
     color: var(--white);
 }
-
-.descripcion__parrafo {
+.description__text{
     margin-top: 2rem;
     font-size: 1.6rem;
 }
-
-.boton {
+.button{
     border-radius: 3%;
     margin-top: 3rem;
     width: 100%;
@@ -269,7 +263,7 @@ body {
     height: 5.7rem;
 }
 
-.boton__texto {
+.button__text{
     padding-left: 1rem;
     color: var(--white);
     font-size: 1.8rem;
