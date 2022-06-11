@@ -37,8 +37,6 @@ body {
 }
 
 .header {
-    position: sticky;
-    top: 0;
     width: 100%;
     min-width: 320px;
     height: 72px;
@@ -105,7 +103,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgba(50, 50, 50, 1);
-    transition: transform 0.3s;
+    /* transition: transform 0.3s; */
     transform: translateY(-200%);
 }
 
@@ -125,6 +123,10 @@ body {
 
 .main {
     min-width: 320px;
+}
+
+.main--deactivate {
+    display: none;
 }
 
 
@@ -390,26 +392,6 @@ hr {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-}
-
-.images--one {
-    background-image: url(../assets/icons/image1.svg);
-}
-
-.images--two {
-    background-image: url(../assets/icons/image2.svg);
-}
-
-.images--three {
-    background-image: url(../assets/icons/image3.svg);
-}
-
-.images--four {
-    background-image: url(../assets/icons/image4.svg);
-}
-
-.images--five {
-    background-image: url(../assets/icons/image5.svg);
 }
 
 

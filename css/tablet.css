@@ -1,3 +1,7 @@
+@media screen and (min-width: 600px) {
+    /* Codigo solo aquí. */
+}
+
 @media screen and (min-width: 768px) {
     .nav__menu {
         position: relative;
@@ -13,4 +17,8 @@
     .menu__item--especial {
         border: solid 1px var(--white);
     }
+}
+
+@media screen and (min-width: 900px) {
+    /* Codigo solo aquí. */
 }
