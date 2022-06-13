@@ -256,11 +256,11 @@ body {
 .button{
     border-radius: 3%;
     margin-top: 3rem;
-    width: 100%;
     border: none;
     background-color: #737373;
     width: 24.2rem;
     height: 5.7rem;
+    cursor: pointer;
 }
 
 .button__text{
