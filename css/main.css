@@ -209,6 +209,8 @@ body {
 }
 
 .personal-projects__carousel picture img {
+    width: 250px;
+    height: 250px;
     margin-bottom: 20px;
     scroll-snap-align: center;
 }
@@ -216,7 +218,7 @@ body {
 
 /*Biografia**/
 
-.main__biography{
+.main__biography {
     width: calc(100% - 4rem);
     min-height: 50rem;
     min-width: 28rem;
@@ -227,9 +229,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .biography__figure {
     display: none;
 }
+
 .biography__figure img {
     width: 25.9rem;
     height: 38.2rem;
@@ -237,23 +241,31 @@ body {
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
 }
-.biography__description{
+
+.biography__description {
     text-align: center;
     line-height: 3rem;
     color: rgba(255, 255, 255, 0.5);
 }
-.description__tittle{
+
+.description__tittle {
+    width: 280px;
+    margin: 0 auto;
     line-height: 4rem;
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.2rem;
     font-size: 2.4rem;
     color: var(--white);
 }
-.description__text{
+
+.description__text {
+    min-width: 280px;
+    max-width: 560px;
     margin-top: 2rem;
     font-size: 1.6rem;
 }
-.button{
+
+.button {
     border-radius: 3%;
     margin-top: 3rem;
     border: none;
@@ -263,7 +275,12 @@ body {
     cursor: pointer;
 }
 
-.button__text{
+.button img {
+    width: 21px;
+    height: 21px;
+}
+
+.button__text {
     padding-left: 1rem;
     color: var(--white);
     font-size: 1.8rem;
@@ -310,8 +327,7 @@ hr {
 }
 
 .skills__box-skills {
-    width: 280px;
-    margin-bottom: 42px;
+    margin: 0 20px 42px 20px;
 }
 
 .box-skills__title {
@@ -324,6 +340,8 @@ hr {
 }
 
 .box-skills__text {
+    min-width: 280px;
+    max-width: 560px;
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
