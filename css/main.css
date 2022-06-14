@@ -153,6 +153,10 @@ body {
     margin-bottom: 37px;
 }
 
+.home__decoration {
+    display: none;
+}
+
 .home__photo-home {
     width: 221px;
     height: 269px;
@@ -175,6 +179,10 @@ body {
     background-image: url('../assets/icons/instagram-white.svg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.social-container__text {
+    display: none;
 }
 
 
@@ -216,7 +224,7 @@ body {
 
 /*Biografia**/
 
-.main__biography{
+.main__biography {
     width: calc(100% - 4rem);
     min-height: 50rem;
     min-width: 28rem;
@@ -227,33 +235,39 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .biography__figure {
     display: none;
 }
+
 .biography__figure img {
     width: 25.9rem;
     height: 38.2rem;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
+    border-top-right-radius: 310px;
+    border-bottom-right-radius: 250px;
+    border-bottom-left-radius: 250px;
 }
-.biography__description{
+
+.biography__description {
     text-align: center;
     line-height: 3rem;
     color: rgba(255, 255, 255, 0.5);
 }
-.description__tittle{
+
+.description__tittle {
     line-height: 4rem;
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.2rem;
     font-size: 2.4rem;
     color: var(--white);
 }
-.description__text{
+
+.description__text {
     margin-top: 2rem;
     font-size: 1.6rem;
 }
-.button{
+
+.button {
     border-radius: 3%;
     margin-top: 3rem;
     width: 100%;
@@ -263,20 +277,21 @@ body {
     height: 5.7rem;
 }
 
-.button__text{
+.button__text {
     padding-left: 1rem;
     color: var(--white);
     font-size: 1.8rem;
 }
 
-hr {
+.biography__hr {
     width: 28rem;
     height: 0.01rem;
 }
 
-
 /* fin biografia */
-
+.biography--skills {
+    display: none;
+}
 
 /* incio skills  */
 
@@ -336,7 +351,7 @@ hr {
     place-items: center;
     padding: 0 20px;
     border: 1px solid var(--white);
-    margin-bottom: 10px;
+    margin: 0 auto 10px;
 }
 
 .email-me__icon {
@@ -359,6 +374,7 @@ hr {
     display: flex;
     flex-direction: row;
     color: var(--white);
+    margin: 0 auto;
 }
 
 .count-projects__number {
@@ -388,12 +404,18 @@ hr {
     background-repeat: no-repeat;
 }
 
+.skills__hr {
+    width: 28rem;
+    height: 0.01rem;
+}
 
 /* fin skills */
 
+.skills--projects {
+    display: hidden;
+}
+
 .footer {
-    /* position: absolute;
-    bottom: 0; */
     margin-top: 119px;
     padding: 17px;
     font-size: 1.6rem;
@@ -401,4 +423,8 @@ hr {
     line-height: 2.8rem;
     text-align: center;
     color: var(--white);
+}
+
+.divider {
+    display: none;
 }
