@@ -78,7 +78,8 @@
         height: 130px;
         background: rgba(0, 0, 0, 0.9);
     }
-    .social-container__icon {
+    .social-container__icon,
+    .home__social-container a {
         display: none;
     }
     .social-container__text {
@@ -160,6 +161,6 @@
 @media screen and (min-width: 900px) {
     .biography__figure img {
         width: 300px;
-        height: 365px;
+        height: 375px;
     }
 }
