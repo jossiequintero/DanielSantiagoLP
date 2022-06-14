@@ -6,19 +6,17 @@
     body {
         background: linear-gradient(113.49deg, #912639 -26.12%, rgba(48, 59, 119, 0.96) 109.39%);
     }
-
     .main {
         background: transparent;
+        max-width: 100%;
+        margin: 0 auto;
     }
-
     .header__logo {
         z-index: 2;
     }
-
     .header__logo-nombre {
         z-index: 2;
     }
-
     .nav__menu {
         position: relative;
         flex-direction: row;
@@ -27,29 +25,25 @@
         margin-right: 12rem;
         margin-top: 2rem;
     }
-
     .menu__item--especial {
         border: solid 1px var(--white);
     }
-
     .main__home {
+        width: 100%;
         padding-top: 7.2rem;
-        height: 111rem;
+        height: 117rem;
         background: linear-gradient(113.49deg, rgba(145, 38, 57, 0.96) -30.3%, #303B77 68.47%);
         transform: translateY(-7.2rem);
     }
-
     .home__title {
         padding-top: 10rem;
         font-size: 7rem;
         font-weight: bold;
     }
-
     .home__subtitle {
         margin-bottom: 5.5rem;
         font-size: 2rem;
     }
-
     .home__decoration {
         display: initial;
         position: absolute;
@@ -64,25 +58,20 @@
         line-height: 30px;
         letter-spacing: 27.8px;
         color: rgba(255, 255, 255, 0.3);
-
         transform: rotate(-90deg);
     }
-
     .home__photo-home {
         width: 536px;
-        height: 593px;
+        height: 653px;
     }
-
     .home__social-container {
         width: 100%;
-        height: 13rem;
+        height: 130px;
         background: rgba(0, 0, 0, 0.9);
     }
-
     .social-container__icon {
         display: none;
     }
-
     .social-container__text {
         display: initial;
         font-family: 'Playfair Display';
@@ -94,36 +83,32 @@
         color: #7F7F7F;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-
     /*Inicio Biografia*/
     .main__biography {
+        max-width: 2000px;
         justify-content: space-evenly;
-        margin-bottom: 4.2rem;
+        margin: 0 auto 4.2rem auto;
     }
-
     .biography__figure {
         display: initial;
     }
-
     .biography__figure img {
         width: 489px;
         height: 612px;
     }
-
     .biography__description {
         text-align: start;
         width: 547px;
         height: 470px;
     }
-
     .description__tittle {
+        width: 547px;
         line-height: 4rem;
         letter-spacing: 0.3rem;
         font-size: 5rem;
         font-weight: 700;
         line-height: 180%;
     }
-
     .description__text {
         position: absolute;
         width: 445px;
@@ -134,46 +119,37 @@
         line-height: 180%;
         letter-spacing: 0.3px;
     }
-
     .button {
         display: none;
     }
-
     .biography__hr {
         display: none;
     }
-
     /*Fin Biografia*/
-
     /*Inicio Skills*/
     .skills__hr {
         display: none;
     }
-
     .skills__f-work {
         display: none;
     }
-
     .main__skills {
-        margin-top: 12rem;
-        margin-bottom: 7rem;
+        max-width: 2000px;
+        margin: 12rem auto 7rem auto;
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
         width: 100%;
     }
-
     .skills__content {
         position: relative;
         height: 55rem;
     }
-
     .skills__box-skills {
         display: flex;
         flex-direction: column;
         width: 58.5rem;
     }
-
     .box-skills__title {
         width: inherit;
         font-weight: 700;
@@ -181,20 +157,17 @@
         line-height: 180%;
         letter-spacing: 0.3px;
     }
-
     .box-skills__text {
         font-weight: 500;
         font-size: 20px;
         line-height: 180%;
         letter-spacing: 0.3px;
     }
-
     .skills__email-me {
         position: absolute;
         right: 1rem;
         bottom: 40%;
     }
-
     .skills__count-projects {
         align-items: center;
         flex-direction: column;
@@ -202,58 +175,48 @@
         right: 15rem;
         bottom: 5rem;
     }
-
     .skills__images {
         height: 540px;
         width: 585px;
         position: relative;
     }
-
     .images {
         width: 253px;
         height: 230px;
         background-size: cover;
     }
-
     .images--ilustator {
         position: absolute;
         left: -3rem;
         top: -10rem;
     }
-
     .images--efects {
         position: absolute;
         right: 7rem;
         bottom: 15rem;
         transform: rotate(18.09deg);
     }
-
     .images--premiere {
         position: absolute;
         right: 4rem;
         top: -7rem;
     }
-
     .images--lightroom {
         position: absolute;
         right: 16rem;
         top: 5rem;
     }
-
     .images--photoshop {
         position: absolute;
         right: 19rem;
         bottom: 5rem;
     }
-
     /*Fin Skills*/
-
     .divider {
         display: block;
         width: 1197px;
         margin: 0 auto;
     }
-
     /*Inicio Proyectos*/
     .personal-projects__title {
         margin-top: 7.5rem;
@@ -262,13 +225,12 @@
         letter-spacing: 0.05rem;
         color: #DEDEDE;
     }
-
     .personal-projects__carousel {
         justify-content: center;
         margin-top: 10.3rem;
         gap: 5rem;
+        overflow-x: hidden;
     }
-
     /*Fin Proyectos*/
     .footer {
         background: transparent;
