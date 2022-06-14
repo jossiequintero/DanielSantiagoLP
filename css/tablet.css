@@ -152,6 +152,9 @@
     .skills__hr {
         display: none;
     }
+    .personal-projects__carousel {
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 900px) {

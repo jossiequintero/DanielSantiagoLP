@@ -226,7 +226,6 @@
         color: #DEDEDE;
     }
     .personal-projects__carousel {
-        justify-content: center;
         margin-top: 10.3rem;
         gap: 5rem;
         overflow-x: hidden;

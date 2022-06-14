@@ -172,7 +172,13 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.home__social-container a {
+    width: 32px;
+    height: 32px;
+}
+
 .social-container__icon {
+    display: block;
     width: 32px;
     height: 32px;
     cursor: pointer;
@@ -299,10 +305,13 @@ body {
     height: 0.01rem;
 }
 
+
 /* fin biografia */
+
 .biography--skills {
     display: none;
 }
+
 
 /* incio skills  */
 
@@ -420,6 +429,7 @@ body {
     width: 28rem;
     height: 0.01rem;
 }
+
 
 /* fin skills */
 
